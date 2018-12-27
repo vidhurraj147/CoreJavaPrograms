@@ -28,4 +28,9 @@ public class OldRobotBuilder implements RobotBuilder {
 		robot.setArms("TIN  OLD  ROBOT ARMS");
 	}
 
+	@Override
+	public Robot getRobot() {
+		return this.robot;
+	}
+
 }

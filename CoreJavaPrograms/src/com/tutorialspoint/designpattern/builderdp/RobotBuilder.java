@@ -5,5 +5,5 @@ public interface RobotBuilder {
 	public void buildRobotTorso();
 	public void buildRobotLegs();
 	public void buildRobotArms();
-
+	public Robot getRobot();
 }
